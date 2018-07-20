@@ -27,7 +27,7 @@ gz_stats R2_001.fastq.gz
 
 ## Part II - Pair reads
 
-I pair the forward and reverse reads using SEQPREP available from https://github.com/jstjohn/SeqPrep (St. John, 2016).  I specify that there needs to be a minimum Phred score of 20 in the overlap region and a minimum overlap of 25 bp.  The program automatically detects compressed fastq files based on the file extension and will automatically output compressed fastq files based on the file extension provided.  I do this by running the command pair and providing two command-line arguments: the pattern that matches all the forward reads and the pattern that matches all the reverse reads.  The pair command links to the script runseqprep_gz.sh .  After I've moved the outfiles into their own directory, I get the paired read stats using the gz_stats command.
+I pair the forward and reverse reads using SEQPREP available from https://github.com/jstjohn/SeqPrep (St. John, 2016).  I specify that there needs to be a minimum Phred score of 20 in the overlap region and a minimum overlap of 25 bp.  The program automatically detects compressed fastq files based on the file extension and will automatically output compressed fastq files based on the file extension provided.  I normally run SEQPREP on a directory of files using the command pair that links to the runseqprep_gz.sh script.  The command 'pair' requires two command-line arguments, the pattern that matches all foward read files and the pattern that matches all revrse read files.
 
 ~~~linux
 pair _R1_001.fastq.gz _R2_001.fastq.gz
