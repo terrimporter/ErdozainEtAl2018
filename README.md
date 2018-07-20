@@ -8,7 +8,7 @@ This repository contains the dataflow and scripts I used to process the CO1 meta
 [Part II - Pair reads](#part-ii---pair-reads)  
 [Part III - Primer trimming](#part-iii---primer-trimming)  
 [Part IV - Concatenate sequences and dereplicate](#part-iv---concatenate-sequences-and-dereplicate)  
-[Part V - Denoising](#part-v---denoising) 
+[Part V - Denoising](#part-v---denoising)  
 [Part VI - Generate ESV table](#part-vi---generate-esv-table)  
 [Part VII - Taxonomic assignment](#part-vii---taxonomic-assignment)  
 [Implementation notes](#implementation-notes)  
@@ -133,3 +133,5 @@ Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian Cl
 # Acknowledgements
 
 I would like to acknowledge funding from the Canadian government from the Genomics Research and Development Initiative (GRDI) Ecobiomics project.
+
+Last updated: July 19, 2018
