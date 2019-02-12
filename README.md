@@ -1,6 +1,10 @@
 # README
 
-This repository contains the dataflow and scripts I used to process the CO1 metabarcode reads in the paper Erdozain et al., 2018 (in prep).
+This repository contains the dataflow and scripts I used to process the CO1 metabarcode reads in the paper Erdozain et al., 2019.  
+
+## Citation
+
+Erdozain, M., Thompson, D.G., Porter, T.M., Kidd, K., Kreutzweiser, D.P., Sibley, P.K., Swystun, T., Chartrand, D., Hajibabaei, M.  (2019) Metabarcoding of storage ethanol vs. conventional morphometric identification in relation to the use of stream macroinvertebrates as ecological indicators in forest management.  Ecological Indicators, 101: 173-184.  https://www.sciencedirect.com/science/article/pii/S1470160X19300147
 
 ## Overview
 
